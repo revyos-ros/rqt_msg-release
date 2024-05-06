@@ -1,0 +1,296 @@
+ros-humble-rqt-msg (1.2.0-2bullseye) bullseye; urgency=high
+
+
+
+ -- Audrow Nash <audrow@openrobotics.org>  Mon, 12 Sep 2022 16:00:00 -0000
+
+ros-humble-rqt-msg (1.0.6-2bullseye) bullseye; urgency=high
+
+  * Update maintainers to Audrow Nash (#14 <https://github.com/ros-visualization/rqt_msg/issues/14>)
+  * Contributors: Audrow Nash
+
+ -- Audrow Nash <audrow@openrobotics.org>  Tue, 05 Apr 2022 16:00:00 -0000
+
+ros-humble-rqt-msg (1.0.5-2bullseye) bullseye; urgency=high
+
+  * Fix modern setuptools warning about dashes instead of underscores (#13 <https://github.com/ros-visualization/rqt_msg/issues/13>)
+  * Contributors: Chris Lalancette
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 30 Aug 2021 16:00:00 -0000
+
+ros-humble-rqt-msg (1.0.4-2bullseye) bullseye; urgency=high
+
+  * Changed the build type to ament_python and fixed package to run with ros2 run (#8 <https://github.com/ros-visualization/rqt_msg/issues/8>)
+  * Contributors: Alejandro Hernández Cordero
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 26 Apr 2021 16:00:00 -0000
+
+ros-humble-rqt-msg (1.0.3-2bullseye) bullseye; urgency=high
+
+  * Use rosidl_runtype_py instead of message_helpers where possible (#11 <https://github.com/ros-visualization/rqt_msg/issues/11>)
+  * Contributors: Ivan Santiago Paunovic
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 11 Apr 2021 16:00:00 -0000
+
+ros-humble-rqt-msg (1.0.1-2bullseye) bullseye; urgency=high
+
+  * fix CMake (#3 <https://github.com/ros-visualization/rqt_msg/issues/3>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 11 Dec 2018 16:00:00 -0000
+
+ros-humble-rqt-msg (1.0.0-2bullseye) bullseye; urgency=high
+
+  * ros2 port (#2 <https://github.com/ros-visualization/rqt_msg/issues/2>)
+  * autopep8 (#1 <https://github.com/ros-visualization/rqt_msg/issues/1>)
+  * Contributors: Mike Lautman
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 10 Dec 2018 16:00:00 -0000
+
+ros-humble-rqt-msg (0.4.8-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 23 Apr 2017 16:00:00 -0000
+
+ros-humble-rqt-msg (0.4.7-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 01 Mar 2017 16:00:00 -0000
+
+ros-humble-rqt-msg (0.4.6-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 26 Feb 2017 16:00:00 -0000
+
+ros-humble-rqt-msg (0.4.5-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 02 Feb 2017 16:00:00 -0000
+
+ros-humble-rqt-msg (0.4.4-2bullseye) bullseye; urgency=high
+
+  * use Python 3 compatible syntax (#421 <https://github.com/ros-visualization/rqt_common_plugins/pull/421>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 23 Jan 2017 16:00:00 -0000
+
+ros-humble-rqt-msg (0.4.3-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 01 Nov 2016 16:00:00 -0000
+
+ros-humble-rqt-msg (0.4.2-2bullseye) bullseye; urgency=high
+
+  * add remove action to context menu in message type browser (#400 <https://github.com/ros-visualization/rqt_common_plugins/pull/400>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 18 Sep 2016 16:00:00 -0000
+
+ros-humble-rqt-msg (0.4.1-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 15 May 2016 16:00:00 -0000
+
+ros-humble-rqt-msg (0.4.0-2bullseye) bullseye; urgency=high
+
+  * Support Qt 5 (in Kinetic and higher) as well as Qt 4 (in Jade and earlier) (#359 <https://github.com/ros-visualization/rqt_common_plugins/pull/359>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 26 Apr 2016 16:00:00 -0000
+
+ros-humble-rqt-msg (0.3.13-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 07 Mar 2016 16:00:00 -0000
+
+ros-humble-rqt-msg (0.3.12-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 23 Jul 2015 16:00:00 -0000
+
+ros-humble-rqt-msg (0.3.11-2bullseye) bullseye; urgency=high
+
+  * fix right click view (#317 <https://github.com/ros-visualization/rqt_common_plugins/issues/317>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 29 Apr 2015 16:00:00 -0000
+
+ros-humble-rqt-msg (0.3.10-2bullseye) bullseye; urgency=high
+
+  * update plugin scripts to use full name to avoid future naming collisions
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 30 Sep 2014 16:00:00 -0000
+
+ros-humble-rqt-msg (0.3.9-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 17 Aug 2014 16:00:00 -0000
+
+ros-humble-rqt-msg (0.3.8-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 14 Jul 2014 16:00:00 -0000
+
+ros-humble-rqt-msg (0.3.7-2bullseye) bullseye; urgency=high
+
+  * export architecture_independent flag in package.xml (#254 <https://github.com/ros-visualization/rqt_common_plugins/issues/254>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 10 Jul 2014 16:00:00 -0000
+
+ros-humble-rqt-msg (0.3.6-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 01 Jun 2014 16:00:00 -0000
+
+ros-humble-rqt-msg (0.3.5-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 06 May 2014 16:00:00 -0000
+
+ros-humble-rqt-msg (0.3.4-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 27 Jan 2014 16:00:00 -0000
+
+ros-humble-rqt-msg (0.3.3-2bullseye) bullseye; urgency=high
+
+  * add groups for rqt plugins, renamed some plugins (#167 <https://github.com/ros-visualization/rqt_common_plugins/issues/167>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 07 Jan 2014 16:00:00 -0000
+
+ros-humble-rqt-msg (0.3.2-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 13 Oct 2013 16:00:00 -0000
+
+ros-humble-rqt-msg (0.3.1-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 08 Oct 2013 16:00:00 -0000
+
+ros-humble-rqt-msg (0.3.0-2bullseye) bullseye; urgency=high
+
+  * fix rendering of icons on OS X (ros-visualization/rqt#83 <https://github.com/ros-visualization/rqt/issues/83>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 27 Aug 2013 16:00:00 -0000
+
+ros-humble-rqt-msg (0.2.17-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 03 Jul 2013 16:00:00 -0000
+
+ros-humble-rqt-msg (0.2.16-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 09 Apr 2013 05:33:00 -0000
+
+ros-humble-rqt-msg (0.2.15-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 08 Apr 2013 16:02:00 -0000
+
+ros-humble-rqt-msg (0.2.14-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 13 Mar 2013 16:00:00 -0000
+
+ros-humble-rqt-msg (0.2.13-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 11 Mar 2013 14:14:00 -0000
+
+ros-humble-rqt-msg (0.2.12-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 11 Mar 2013 05:56:00 -0000
+
+ros-humble-rqt-msg (0.2.11-2bullseye) bullseye; urgency=high
+
+  * Fix; IndexError: list index out of range (#26 <https://github.com/ros-visualization/rqt_common_plugins/issues/26>)
+  * A common module (rqt_msg.MessageWidget) optimized so that other pkgs that provide similar functionality (eg. rqt_srv, rqt_action) can use it
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 07 Mar 2013 16:00:00 -0000
+
+ros-humble-rqt-msg (0.2.10-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 21 Jan 2013 16:00:00 -0000
+
+ros-humble-rqt-msg (0.2.9-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 16 Jan 2013 16:00:00 -0000
+
+ros-humble-rqt-msg (0.2.8-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 10 Jan 2013 16:00:00 -0000
+
+ros-humble-rqt-msg (0.2.7-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 23 Dec 2012 16:00:00 -0000
+
+ros-humble-rqt-msg (0.2.6-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sat, 22 Dec 2012 16:00:00 -0000
+
+ros-humble-rqt-msg (0.2.5-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 21 Dec 2012 11:11:00 -0000
+
+ros-humble-rqt-msg (0.2.4-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 20 Dec 2012 17:13:00 -0000
+
+ros-humble-rqt-msg (0.2.3-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 20 Dec 2012 16:24:00 -0000
+
+ros-humble-rqt-msg (0.2.2-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 20 Dec 2012 10:29:00 -0000
+
+ros-humble-rqt-msg (0.2.1-2bullseye) bullseye; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 20 Dec 2012 09:47:00 -0000
+
+ros-humble-rqt-msg (0.2.0-2bullseye) bullseye; urgency=high
+
+  * first release of this package into groovy
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 20 Dec 2012 09:39:00 -0000
+
+
