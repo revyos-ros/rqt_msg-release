@@ -1,0 +1,12 @@
+Source: ros-jazzy-rqt-msg
+Section: misc
+Priority: optional
+Maintainer: Brandon Ong <brandon@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-jazzy-ament-flake8 <!nocheck>, ros-jazzy-ament-xmllint <!nocheck>, ros-jazzy-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://wiki.ros.org/rqt_msg
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-rqt-msg
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-jazzy-ament-index-python, ros-jazzy-python-qt-binding (>= 0.2.19), ros-jazzy-rclpy, ros-jazzy-rosidl-runtime-py, ros-jazzy-rqt-console, ros-jazzy-rqt-gui, ros-jazzy-rqt-gui-py, ros-jazzy-rqt-py-common, ros-jazzy-ros-workspace
+Description: A Python GUI plugin for introspecting available ROS message types.

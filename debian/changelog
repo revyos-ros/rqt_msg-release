@@ -1,0 +1,329 @@
+ros-jazzy-rqt-msg (1.5.1-4noble) noble; urgency=high
+
+  * Add in python3-pytest test dependency. (#19 <https://github.com/ros-visualization/rqt_msg/issues/19>)
+  * Contributors: Chris Lalancette
+
+ -- Brandon Ong <brandon@openrobotics.org>  Tue, 06 Feb 2024 16:00:00 -0000
+
+ros-jazzy-rqt-msg (1.5.0-4noble) noble; urgency=high
+
+  * Small cleanups to rqt_msg (#16 <https://github.com/ros-visualization/rqt_msg/issues/16>)
+  * Contributors: Chris Lalancette
+
+ -- Brandon Ong <brandon@openrobotics.org>  Tue, 06 Jun 2023 16:00:00 -0000
+
+ros-jazzy-rqt-msg (1.4.0-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Thu, 27 Apr 2023 16:00:00 -0000
+
+ros-jazzy-rqt-msg (1.3.1-4noble) noble; urgency=high
+
+  * [rolling] Update maintainers - 2022-11-07 (#17 <https://github.com/ros-visualization/rqt_msg/issues/17>)
+  * Contributors: Audrow Nash
+
+ -- Brandon Ong <brandon@openrobotics.org>  Mon, 13 Feb 2023 16:00:00 -0000
+
+ros-jazzy-rqt-msg (1.3.0-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Mon, 12 Sep 2022 16:00:00 -0000
+
+ros-jazzy-rqt-msg (1.1.0-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Mon, 09 May 2022 16:00:00 -0000
+
+ros-jazzy-rqt-msg (1.0.6-4noble) noble; urgency=high
+
+  * Update maintainers to Audrow Nash (#14 <https://github.com/ros-visualization/rqt_msg/issues/14>)
+  * Contributors: Audrow Nash
+
+ -- Brandon Ong <brandon@openrobotics.org>  Tue, 05 Apr 2022 16:00:00 -0000
+
+ros-jazzy-rqt-msg (1.0.5-4noble) noble; urgency=high
+
+  * Fix modern setuptools warning about dashes instead of underscores (#13 <https://github.com/ros-visualization/rqt_msg/issues/13>)
+  * Contributors: Chris Lalancette
+
+ -- Brandon Ong <brandon@openrobotics.org>  Mon, 30 Aug 2021 16:00:00 -0000
+
+ros-jazzy-rqt-msg (1.0.4-4noble) noble; urgency=high
+
+  * Changed the build type to ament_python and fixed package to run with ros2 run (#8 <https://github.com/ros-visualization/rqt_msg/issues/8>)
+  * Contributors: Alejandro Hernández Cordero
+
+ -- Brandon Ong <brandon@openrobotics.org>  Mon, 26 Apr 2021 16:00:00 -0000
+
+ros-jazzy-rqt-msg (1.0.3-4noble) noble; urgency=high
+
+  * Use rosidl_runtype_py instead of message_helpers where possible (#11 <https://github.com/ros-visualization/rqt_msg/issues/11>)
+  * Contributors: Ivan Santiago Paunovic
+
+ -- Brandon Ong <brandon@openrobotics.org>  Sun, 11 Apr 2021 16:00:00 -0000
+
+ros-jazzy-rqt-msg (1.0.1-4noble) noble; urgency=high
+
+  * fix CMake (#3 <https://github.com/ros-visualization/rqt_msg/issues/3>)
+
+ -- Brandon Ong <brandon@openrobotics.org>  Tue, 11 Dec 2018 16:00:00 -0000
+
+ros-jazzy-rqt-msg (1.0.0-4noble) noble; urgency=high
+
+  * ros2 port (#2 <https://github.com/ros-visualization/rqt_msg/issues/2>)
+  * autopep8 (#1 <https://github.com/ros-visualization/rqt_msg/issues/1>)
+  * Contributors: Mike Lautman
+
+ -- Brandon Ong <brandon@openrobotics.org>  Mon, 10 Dec 2018 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.4.8-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Sun, 23 Apr 2017 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.4.7-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Wed, 01 Mar 2017 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.4.6-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Sun, 26 Feb 2017 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.4.5-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Thu, 02 Feb 2017 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.4.4-4noble) noble; urgency=high
+
+  * use Python 3 compatible syntax (#421 <https://github.com/ros-visualization/rqt_common_plugins/pull/421>)
+
+ -- Brandon Ong <brandon@openrobotics.org>  Mon, 23 Jan 2017 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.4.3-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Tue, 01 Nov 2016 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.4.2-4noble) noble; urgency=high
+
+  * add remove action to context menu in message type browser (#400 <https://github.com/ros-visualization/rqt_common_plugins/pull/400>)
+
+ -- Brandon Ong <brandon@openrobotics.org>  Sun, 18 Sep 2016 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.4.1-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Sun, 15 May 2016 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.4.0-4noble) noble; urgency=high
+
+  * Support Qt 5 (in Kinetic and higher) as well as Qt 4 (in Jade and earlier) (#359 <https://github.com/ros-visualization/rqt_common_plugins/pull/359>)
+
+ -- Brandon Ong <brandon@openrobotics.org>  Tue, 26 Apr 2016 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.3.13-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Mon, 07 Mar 2016 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.3.12-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Thu, 23 Jul 2015 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.3.11-4noble) noble; urgency=high
+
+  * fix right click view (#317 <https://github.com/ros-visualization/rqt_common_plugins/issues/317>)
+
+ -- Brandon Ong <brandon@openrobotics.org>  Wed, 29 Apr 2015 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.3.10-4noble) noble; urgency=high
+
+  * update plugin scripts to use full name to avoid future naming collisions
+
+ -- Brandon Ong <brandon@openrobotics.org>  Tue, 30 Sep 2014 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.3.9-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Sun, 17 Aug 2014 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.3.8-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Mon, 14 Jul 2014 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.3.7-4noble) noble; urgency=high
+
+  * export architecture_independent flag in package.xml (#254 <https://github.com/ros-visualization/rqt_common_plugins/issues/254>)
+
+ -- Brandon Ong <brandon@openrobotics.org>  Thu, 10 Jul 2014 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.3.6-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Sun, 01 Jun 2014 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.3.5-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Tue, 06 May 2014 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.3.4-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Mon, 27 Jan 2014 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.3.3-4noble) noble; urgency=high
+
+  * add groups for rqt plugins, renamed some plugins (#167 <https://github.com/ros-visualization/rqt_common_plugins/issues/167>)
+
+ -- Brandon Ong <brandon@openrobotics.org>  Tue, 07 Jan 2014 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.3.2-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Sun, 13 Oct 2013 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.3.1-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Tue, 08 Oct 2013 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.3.0-4noble) noble; urgency=high
+
+  * fix rendering of icons on OS X (ros-visualization/rqt#83 <https://github.com/ros-visualization/rqt/issues/83>)
+
+ -- Brandon Ong <brandon@openrobotics.org>  Tue, 27 Aug 2013 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.2.17-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Wed, 03 Jul 2013 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.2.16-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Tue, 09 Apr 2013 05:33:00 -0000
+
+ros-jazzy-rqt-msg (0.2.15-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Mon, 08 Apr 2013 16:02:00 -0000
+
+ros-jazzy-rqt-msg (0.2.14-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Wed, 13 Mar 2013 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.2.13-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Mon, 11 Mar 2013 14:14:00 -0000
+
+ros-jazzy-rqt-msg (0.2.12-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Mon, 11 Mar 2013 05:56:00 -0000
+
+ros-jazzy-rqt-msg (0.2.11-4noble) noble; urgency=high
+
+  * Fix; IndexError: list index out of range (#26 <https://github.com/ros-visualization/rqt_common_plugins/issues/26>)
+  * A common module (rqt_msg.MessageWidget) optimized so that other pkgs that provide similar functionality (eg. rqt_srv, rqt_action) can use it
+
+ -- Brandon Ong <brandon@openrobotics.org>  Thu, 07 Mar 2013 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.2.10-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Mon, 21 Jan 2013 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.2.9-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Wed, 16 Jan 2013 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.2.8-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Thu, 10 Jan 2013 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.2.7-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Sun, 23 Dec 2012 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.2.6-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Sat, 22 Dec 2012 16:00:00 -0000
+
+ros-jazzy-rqt-msg (0.2.5-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Fri, 21 Dec 2012 11:11:00 -0000
+
+ros-jazzy-rqt-msg (0.2.4-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Thu, 20 Dec 2012 17:13:00 -0000
+
+ros-jazzy-rqt-msg (0.2.3-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Thu, 20 Dec 2012 16:24:00 -0000
+
+ros-jazzy-rqt-msg (0.2.2-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Thu, 20 Dec 2012 10:29:00 -0000
+
+ros-jazzy-rqt-msg (0.2.1-4noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Thu, 20 Dec 2012 09:47:00 -0000
+
+ros-jazzy-rqt-msg (0.2.0-4noble) noble; urgency=high
+
+  * first release of this package into groovy
+
+ -- Brandon Ong <brandon@openrobotics.org>  Thu, 20 Dec 2012 09:39:00 -0000
+
+
