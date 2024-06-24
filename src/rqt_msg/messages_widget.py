@@ -32,7 +32,7 @@
 
 import os
 
-from ament_index_python.resources import get_resource, get_resources
+from ament_index_python.resources import get_resource
 
 from python_qt_binding import loadUi
 from python_qt_binding.QtCore import Qt
@@ -42,24 +42,23 @@ from python_qt_binding.QtWidgets import (QAction, QMenu,
 
 from rclpy import logging
 
-from rosidl_runtime_py.utilities import get_action, get_service, get_message
-from rosidl_runtime_py import get_action_interfaces, get_service_interfaces, get_message_interfaces
+from rosidl_runtime_py import get_action_interfaces, get_message_interfaces, get_service_interfaces
+from rosidl_runtime_py.utilities import get_action, get_message, get_service
 
 from rqt_console.text_browse_dialog import TextBrowseDialog
 
 from rqt_msg.messages_tree_view import MessagesTreeView
 
-# from rqt_py_common import rosaction
-
 from rqt_py_common import message_helpers
-from rqt_py_common.rqt_roscomm_util import RqtRoscommUtil
 from rqt_py_common.message_helpers import \
     get_action_text_from_class, get_message_text_from_class, get_service_text_from_class
+from rqt_py_common.rqt_roscomm_util import RqtRoscommUtil
 
 
 class MessagesWidget(QWidget):
     """
-    This class is intended to be able to handle msg, srv & action (actionlib).
+    This class is intended to be able to handle msg, srv & action.
+
     The name of the class is kept to use message, by following the habit of
     rosmsg (a script that can handle both msg & srv).
     """
@@ -68,6 +67,8 @@ class MessagesWidget(QWidget):
                  pkg_name='rqt_msg',
                  ui_filename='messages.ui'):
         """
+        Construct a new MessagesWidget.
+
         :param ui_filename: This Qt-based .ui file must have elements that are
                             referred from this class. Otherwise unexpected
                             errors are likely to happen. Best way to avoid that
@@ -77,7 +78,7 @@ class MessagesWidget(QWidget):
         """
         super(MessagesWidget, self).__init__()
 
-        self._logger = logging.get_logger("MessagesWidget")
+        self._logger = logging.get_logger('MessagesWidget')
 
         _, package_path = get_resource('packages', pkg_name)
         ui_file = os.path.join(
@@ -109,12 +110,18 @@ class MessagesWidget(QWidget):
         if package is None or len(package) == 0:
             return
         self._msgs = []
+        interfaces = {}
         if self._mode == message_helpers.MSG_MODE:
-            msg_list = [f'{package}/{name}' for name in get_message_interfaces([package])[package]]
+            interfaces = get_message_interfaces([package])
         elif self._mode == message_helpers.SRV_MODE:
-            msg_list = [f'{package}/{name}' for name in get_service_interfaces([package])[package]]
+            interfaces = get_service_interfaces([package])
         elif self._mode == message_helpers.ACTION_MODE:
-            msg_list = [f'{package}/{name}' for name in get_action_interfaces([package])[package]]
+            interfaces = get_action_interfaces([package])
+
+        msg_list = []
+        if package in interfaces:
+            msg_list = [f'{package}/{name}' for name in interfaces[package]]
+
         self._logger.debug(
             '_refresh_msgs package={} msg_list={}'.format(package, msg_list))
         for msg in msg_list:
@@ -186,9 +193,7 @@ class MessagesWidget(QWidget):
         return old_pressEvent(self._messages_tree, event)
 
     def _rightclick_menu(self, event):
-        """
-        :type event: QEvent
-        """
+        """:type event: QEvent."""
         # QTreeview.selectedIndexes() returns 0 when no node is selected.
         # This can happen when after booting no left-click has been made yet
         # (ie. looks like right-click doesn't count). These lines are the
@@ -220,7 +225,7 @@ class MessagesWidget(QWidget):
 
             # We only want the base class so we transform eg. pkg1/my_srv/Request -> pkg1/my_srv
             if selected_type_bare_tokens_len > 2:
-                selected_type_bare = "/".join(selected_type_bare.split('/')[:2])
+                selected_type_bare = '/'.join(selected_type_bare.split('/')[:2])
 
             browsetext = None
 
@@ -236,18 +241,18 @@ class MessagesWidget(QWidget):
             # If the type has two '/'s then we treat it as a srv or action type
             elif selected_type_bare_tokens_len == 3:
                 if self._mode == message_helpers.SRV_MODE:
-                        msg_class = get_service(selected_type_bare)
-                        browsetext = get_service_text_from_class(msg_class)
+                    msg_class = get_service(selected_type_bare)
+                    browsetext = get_service_text_from_class(msg_class)
 
                 elif self._mode == message_helpers.ACTION_MODE:
                     msg_class = get_action(selected_type_bare)
                     browsetext = get_action_text_from_class(msg_class)
 
                 else:
-                    self._logger.warn("Unrecognized value for self._mode: {} "
-                                      "for selected_type: {}".format(self._mode, selected_type))
+                    self._logger.warn('Unrecognized value for self._mode: {} '
+                                      'for selected_type: {}'.format(self._mode, selected_type))
             else:
-                self._logger.warn("Invalid selected_type: {}".format(selected_type))
+                self._logger.warn('Invalid selected_type: {}'.format(selected_type))
 
             if browsetext is not None:
                 self._browsers.append(TextBrowseDialog(browsetext))

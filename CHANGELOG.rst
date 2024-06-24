@@ -2,7 +2,28 @@
 Changelog for package rqt_msg
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.2.0 (2022-09-13)
+1.5.1 (2024-02-07)
+------------------
+* Add in python3-pytest test dependency. (`#19 <https://github.com/ros-visualization/rqt_msg/issues/19>`_)
+* Contributors: Chris Lalancette
+
+1.5.0 (2023-06-07)
+------------------
+* Small cleanups to rqt_msg (`#16 <https://github.com/ros-visualization/rqt_msg/issues/16>`_)
+* Contributors: Chris Lalancette
+
+1.4.0 (2023-04-28)
+------------------
+
+1.3.1 (2023-02-14)
+------------------
+* [rolling] Update maintainers - 2022-11-07 (`#17 <https://github.com/ros-visualization/rqt_msg/issues/17>`_)
+* Contributors: Audrow Nash
+
+1.3.0 (2022-09-13)
+------------------
+
+1.1.0 (2022-05-10)
 ------------------
 
 1.0.6 (2022-04-06)
